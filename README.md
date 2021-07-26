@@ -36,7 +36,7 @@ python train.py --num_out_points 32--log_dir log/LA-Net/32
 To evaluate the classifier over LA-Net's sampled points and save data for retrieval:
 
 ```shell
-python evaluate.py --sampler_model_path log/LA-Net/32/model.ckpt --num_out_points 32 --dump_dir log/LA-NET/32/eval --save_retrieval_vectors 1
+python evaluate.py --sampler_model_path log/LA-Net/32/model.ckpt --num_out_points 32 --dump_dir log/LA-Net/32/eval --save_retrieval_vectors 1
 ```
 
 To analyze retrieval data:
